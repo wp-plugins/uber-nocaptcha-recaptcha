@@ -21,9 +21,11 @@
  */
 function construct_ncr_captcha_on_register_form(){
 
-    if( isset(get_option('uncr_settings')['uncr_register_form']) && get_option('uncr_settings')['uncr_register_form'] == 'uncr_register_form') {
+    $plugin_option = get_option('uncr_settings');
+
+    if( isset($plugin_option['uncr_register_form']) && $plugin_option['uncr_register_form'] == 'uncr_register_form') {
         // instantiate the class & load everything else
-        new ncr_captcha_on_register();
+       return new ncr_captcha_on_register();
     }
 }
 

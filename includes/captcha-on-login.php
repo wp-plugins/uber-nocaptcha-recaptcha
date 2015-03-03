@@ -21,10 +21,12 @@
  */
 function construct_ncr_captcha_on_login_form(){
 
-   if( isset(get_option('uncr_settings')['uncr_login_form']) && get_option('uncr_settings')['uncr_login_form'] == 'uncr_login_form') {
+    $plugin_option = get_option('uncr_settings');
+
+   if( isset($plugin_option['uncr_login_form']) && $plugin_option['uncr_login_form'] == 'uncr_login_form') {
 
         // instantiate the class & load everything else
-        new ncr_captcha_on_login();
+        return new ncr_captcha_on_login();
     }
 
 }

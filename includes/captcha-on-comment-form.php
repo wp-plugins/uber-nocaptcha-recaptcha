@@ -26,12 +26,14 @@
  */
 function construct_ncr_captcha_on_comment_form(){
 
-    if(get_option('uncr_settings')['uncr_comment_form'] && get_option('uncr_settings')['uncr_comment_form'] == 'uncr_comment_form') { // check if captcha form on comment form is enabled
+    $plugin_option = get_option('uncr_settings');
+
+    if($plugin_option['uncr_comment_form'] && $plugin_option['uncr_comment_form'] == 'uncr_comment_form') { // check if captcha form on comment form is enabled
 
         if( !is_user_logged_in() ){ // check if user is logged in or not; we shouldn't be loading the class if the user is logged in (works on the principle that only users with privileges will be logged in, such as : admins)
 
             // instantiate the class & load everything else
-            new ncr_captcha_on_comment_form();
+           return new ncr_captcha_on_comment_form();
         }
     }
 }
