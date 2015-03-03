@@ -45,5 +45,8 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Changelog ==
 
 
+= 0.1.1 = 
+PHP 5.3.29 compatibility fix
+
 = 0.1 =
 Initial release
