@@ -221,15 +221,11 @@ class ncr_options_panel extends ncr_render_engine
      * @since   1.0.0
      *
      */
-    public function ncr_section_render($arg) {
-
-
-        $arg['title'] = '';
+    public function ncr_section_render() {
 
         $output =  '<p>' . __('Get your noCaptcha reCaptcha keys <a href="https://www.google.com/recaptcha/" target="_blank">here</a>', 'uncr_translate') . '</p>';
-        $output .= $arg['title'];
 
-        return $output;
+        echo $output;
 
     }
 
