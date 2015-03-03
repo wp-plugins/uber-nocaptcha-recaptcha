@@ -8,7 +8,7 @@
  * enqueues the front-end specific stylesheet and JavaScript.
  *
  * @package    Uber_Recaptcha
- * @author     Cristian Raiber <cristian@raiber.me>
+ * @author     Cristian Raiber <hi@cristian.raiber.me>
  */
 class ncr_base_class {
 
@@ -155,7 +155,7 @@ class ncr_base_class {
      * @since    1.0.0
      */
         public function uncr_wp_css() {
-            wp_register_style('captcha-style', plugins_url('css/style.css', __FILE__));
+            wp_register_style('captcha-style', plugins_url('css/style.css', dirname(__FILE__) ) );
             wp_enqueue_style('captcha-style');
         }
 
