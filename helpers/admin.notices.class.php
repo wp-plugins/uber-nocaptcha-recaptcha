@@ -19,7 +19,9 @@
  */
 function construct_uncr_admin_notices(){
 
-    if( get_option('uncr_settings')['public_key_text'] === '' || get_option('uncr_settings')['private_key_text'] === '' ) { // check if site / secret key have values in them
+    $plugin_option = get_option('uncr_settings');
+
+    if( $plugin_option['public_key_text'] === '' || $plugin_option['private_key_text'] === '' ) { // check if site / secret key have values in them
 
             // instantiate the class & load everything else
             new ncr_admin_notices();
