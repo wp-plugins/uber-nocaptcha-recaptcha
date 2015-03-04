@@ -7,7 +7,7 @@
  *
  * @package    Uber_Recaptcha
  * @subpackage Uber_Recaptcha/admin/settings
- * @author     Cristian Raiber <cristian@raiber.me>
+ * @author     Cristian Raiber <hi@cristian.raiber.me>
  */
 class ncr_options_panel extends ncr_render_engine
 {
@@ -140,6 +140,7 @@ class ncr_options_panel extends ncr_render_engine
                         'uncr_login_form'       => 'Login Screen',
                         'uncr_register_form'    => 'Register Screen',
                         'uncr_comment_form'     => 'Comment Form',
+                        'uncr_lost_pwd'         => 'Recover Password Form',
                     )
             ),
 
