@@ -1,12 +1,12 @@
 === Plugin Name ===
 Contributors: cristian.raiber
-Tags: comments, spam, recaptcha, login protection
+Tags: comments, spam, recaptcha, login protection, comment protection, spam protection, nocaptcha, recaptcha, captcha
 Requires at least: 3.9
 Tested up to: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin adds the reCaptcha form to the WordPress login form, register form and comment form. Code is lightweight and everything is properly documented / commented.
+This plugin adds the reCaptcha form to the WordPress login form, recover password form, register form and comment form.
 
 == Description ==
 
@@ -14,12 +14,14 @@ A very useful plugin for everyone using WordPress. Adds reCaptcha security to th
 
 Nothing gets passed it if the reCaptcha doesn't validate.
 
-A few notes about the sections above:
+A few notes about the plugin:
 
 *   Supports audio or image captcha types
-*   Adds reCaptcha form to WordPress login form
-*   Adds reCaptcha form to WordPress register form
-*   Adds reCaptcha form to WordPress comment form
+*   Can generate the reCaptcha image / audio type in a number of predefined languages
+*   Adds reCaptcha protection to the WordPress login form
+*   Adds reCaptcha protection to the WordPress register form
+*   Adds reCaptcha protection to the WordPress comment form
+*   Adds reCaptcha protection to the WordPress recover password form
 
 == Installation ==
 
@@ -44,6 +46,8 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
+= 0.1.2=
+Added reCaptcha on recover password form
 
 = 0.1.1 = 
 PHP 5.3.29 compatibility fix
