@@ -11,10 +11,10 @@
  * @package           Uber_Recaptcha
  *
  * @wordpress-plugin
- * Plugin Name:       Über reCaptcha [dev]
+ * Plugin Name:       Über reCaptcha
  * Plugin URI:        http://www.tamewp.com/uber-recaptcha/
  * Description:       Adds Googles' reCaptcha to WordPress forms.
- * Version:           1.0.1
+ * Version:           1.0.0
  * Author:            Cristian Raiber
  * Author URI:        www.cristian.raiber.me
  * License:           GPL-2.0+
