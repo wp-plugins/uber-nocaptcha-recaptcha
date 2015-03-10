@@ -62,6 +62,7 @@ require_once  plugin_dir_path(__FILE__) . 'includes/captcha-on-comment-form.php'
 require_once  plugin_dir_path(__FILE__) . 'includes/captcha-on-recover-password-form.php';
 
 
+
 /**
  * The class responsible for generating the mark-up for the fields
  * on the plugin back-end.

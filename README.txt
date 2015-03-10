@@ -36,6 +36,7 @@ This section describes how to install the plugin and get it working.
 1. Enjoy a spam free blog & extra security for your back-end panel :)
 
 
+
 == Screenshots ==
 
 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
@@ -46,9 +47,11 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-= 1.0.1 =
+= 0.1.2 =
 Added reCaptcha on recover password form
+
+= 0.1.1 = 
 PHP 5.3.29 compatibility fix
 
-= 1.0 = 
+= 0.1 =
 Initial release
