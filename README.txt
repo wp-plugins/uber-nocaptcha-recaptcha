@@ -47,11 +47,10 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
-= 0.1.2 =
+= 1.0.1 =
 Added reCaptcha on recover password form
-
-= 0.1.1 = 
 PHP 5.3.29 compatibility fix
+Minor other fixes
 
-= 0.1 =
+= 1.0.0 = 
 Initial release
