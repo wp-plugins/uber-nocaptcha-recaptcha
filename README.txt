@@ -48,9 +48,9 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Changelog ==
 
 = 1.0.1 =
-Added reCaptcha on recover password form
-PHP 5.3.29 compatibility fix
-Minor other fixes
+* Added reCaptcha on recover password form
+* PHP 5.3.29 compatibility fix
+* Minor other fixes
 
 = 1.0.0 = 
-Initial release
+* Initial release
