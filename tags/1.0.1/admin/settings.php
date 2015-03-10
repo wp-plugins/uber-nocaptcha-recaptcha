@@ -141,7 +141,6 @@ class ncr_options_panel extends ncr_render_engine
                         'uncr_register_form'    => 'Register Screen',
                         'uncr_comment_form'     => 'Comment Form',
                         'uncr_lost_pwd'         => 'Recover Password Form',
-                        'uncr_cf7_form'         => 'Contact Form 7',
                     )
             ),
 

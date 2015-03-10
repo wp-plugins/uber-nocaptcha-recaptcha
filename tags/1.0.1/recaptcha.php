@@ -61,10 +61,6 @@ require_once  plugin_dir_path(__FILE__) . 'includes/captcha-on-comment-form.php'
  */
 require_once  plugin_dir_path(__FILE__) . 'includes/captcha-on-recover-password-form.php';
 
-/**
- * The class responsible for generating and adding the required shortcodes & mark-up in the popular Contact Form 7 plugin
- */
-require_once plugin_dir_path(__FILE__) . 'includes/contact-form-7/captcha-on-contact-form7.php';
 
 /**
  * The class responsible for generating the mark-up for the fields

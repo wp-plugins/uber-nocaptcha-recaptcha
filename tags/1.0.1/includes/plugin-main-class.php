@@ -98,7 +98,6 @@ class ncr_base_class {
                 'uncr_register_form'        => '',
                 'uncr_comment_form'         => '',
                 'uncr_lost_pwd'             => '',
-                'uncr_cf7_form'             => '',
             );
 
             // reCaptcha secret key
@@ -145,8 +144,8 @@ class ncr_base_class {
                         wp_register_script( 'recaptchaAPI', 'http://www.google.com/recaptcha/api.js?render=explicit', NULL, '2.0', false);
                         wp_register_script( 'recaptchaGenerate', plugins_url('js/recaptcha.js', dirname(__FILE__) ), array('recaptchaAPI', 'jquery'), '1.0', false );
                     }
-                        //wp_enqueue_script( 'recaptchaAPI' );
-                        //wp_enqueue_script( 'recaptchaGenerate');
+                        wp_enqueue_script( 'recaptchaAPI' );
+                        wp_enqueue_script( 'recaptchaGenerate');
                     } else {
                         return new WP_Error('script_handle_exists', __('A script with the same has already been registered. Plugin conflict', 'uncr_translate') );
                     }
